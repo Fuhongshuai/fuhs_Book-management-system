@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>servlet</servlet-name>
+    <servlet-class>servlet.servlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>regservlet</servlet-name>
+    <servlet-class>servlet.regservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>bookservlet</servlet-name>
+    <servlet-class>servlet.bookservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>pages</servlet-name>
+    <servlet-class>servlet.pages</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>buybook</servlet-name>
+    <servlet-class>servlet.buybook</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>changecar</servlet-name>
+    <servlet-class>servlet.changecar</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>orderservlet</servlet-name>
+    <servlet-class>servlet.orderservlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ceshi</servlet-name>
+    <servlet-class>servlet.ceshi</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>warehouse</servlet-name>
+    <servlet-class>servlet.warehouse</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>servlet</servlet-name>
+    <url-pattern>/servlet/servlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>regservlet</servlet-name>
+    <url-pattern>/servlet/regservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>bookservlet</servlet-name>
+    <url-pattern>/servlet/bookservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>pages</servlet-name>
+    <url-pattern>/servlet/pages</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>buybook</servlet-name>
+    <url-pattern>/servlet/buybook</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>changecar</servlet-name>
+    <url-pattern>/servlet/changecar</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>orderservlet</servlet-name>
+    <url-pattern>/servlet/orderservlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ceshi</servlet-name>
+    <url-pattern>/servlet/ceshi</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>warehouse</servlet-name>
+    <url-pattern>/servlet/warehouse</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
